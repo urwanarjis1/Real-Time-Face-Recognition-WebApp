@@ -88,7 +88,6 @@ function Register() {
       <button
         onClick={startCapture}
         disabled={isCapturing}
-        //className="bg-blue-500 text-white px-4 py-2 rounded"
         className="btn-custom"
       >
         {isCapturing ? "Capturing..." : "Start Capturing (200 images)"}

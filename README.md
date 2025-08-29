@@ -7,6 +7,8 @@ It has two parts:
 
 **Frontend (React.js)** → Provides an interactive UI to register users, train models, and perform recognition.
 
+**Python Version**: 3.9.23 ✅ Compatible with all backend dependencies.
+
 **🚀 Features**
 
 * Real-time face recognition using webcam

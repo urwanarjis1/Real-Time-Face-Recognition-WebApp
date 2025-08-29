@@ -43,7 +43,8 @@ backend/
 
   ```bash  
   git clone https://github.com/urwanarjis1/Real-Time-Face-Recognition-WebApp.git
+  ```
 
   ```bash
   cd Real-Time-Face-Recognition-WebApp/backend
-
+  ```

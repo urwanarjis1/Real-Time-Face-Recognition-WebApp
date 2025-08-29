@@ -1,70 +1,122 @@
-# Getting Started with Create React App
+# Frontend - React Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the **frontend** of the project, built using **React.js**.  
+It provides the user interface and communicates with the backend API (Python/FastAPI).
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+ 🚀 Features
+- React.js based user interface
+- Three main modules:
+  - **Recognition** → Face recognition functionality
+  - **Register** → Register new users with images
+  - **Train** → Train the recognition model
+- Responsive design with CSS styling
+- Connects seamlessly with the backend API
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+📂 Project Structure
+frontend/
+│
+├── public/ # Static files 
+├── src/ # React source code
+│   ├── components/ # UI Components
+│   │   ├── Recognition.css
+│   │   ├── Recognition.js
+│   │   ├── Register.css
+│   │   ├── Register.js
+│   │   ├── Train.css
+│   │   ├── Train.js
+│   │
+│   ├── App.css # Global styles
+│   ├── App.js # Main app component
+│   ├── index.css # Styles for entry point
+│   ├── index.js # React entry point
+│
+├── .gitignore  # Git ignore rules
+├── package-lock.json # Dependency lock file
+├── package.json  # Project dependencies & scripts
+└── README.md  # Documentation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ 🛠️ Installation & Setup
 
-### `npm run build`
+1️⃣ Clone the repository
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+git clone https://github.com/your-username/your-repo.git
+cd frontend
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2️⃣ Install dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  npm install
 
-### `npm run eject`
+3️⃣ Run the development server
+  
+  npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The app will be available at: http://localhost:3000
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+📦 Build for Production
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm run build
 
-## Learn More
+This will generate optimized static files in the build/ folder.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🔗 Backend Connection
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This frontend communicates with the Python FastAPI backend.
+Make sure the backend server is running, then update API endpoints in frontend components if needed.
 
-### Code Splitting
+📚 Available Scripts
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+npm start → Run the app in development mode
 
-### Analyzing the Bundle Size
+npm test → Run tests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+npm run build → Build for production
 
-### Making a Progressive Web App
+npm run eject → Eject CRA config (not recommended)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+📦 Dependencies
+Main Dependencies
 
-### Advanced Configuration
+React
+ ^19.1.1
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+React DOM
+ ^19.1.1
 
-### Deployment
+React Router DOM
+ ^7.8.2
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Axios
+ ^1.11.0
 
-### `npm run build` fails to minify
+Bootstrap
+ ^5.3.7
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+React Scripts (CRA)
+ 5.0.1
+
+Web Vitals
+ ^2.1.4
+
+Testing Dependencies
+
+@testing-library/react
+ ^16.3.0
+
+@testing-library/jest-dom
+ ^6.8.0
+
+@testing-library/user-event
+ ^13.5.0
+
+@testing-library/dom
+ ^10.4.1
+
+

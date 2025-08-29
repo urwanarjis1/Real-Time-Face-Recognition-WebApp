@@ -3,13 +3,18 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.db
-*.sqlite3
 env/
 venv/
 
-# React
+# Node.js
 node_modules/
 build/
 dist/
-.env
+
+# Dataset (ignore actual images/videos)
+backend/dataset/*
+!backend/dataset/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db

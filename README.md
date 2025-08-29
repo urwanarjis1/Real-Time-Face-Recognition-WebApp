@@ -1,4 +1,4 @@
-# Real-Time Face Recognition WebApp
+# Real-Time-Face-Recognition-WebApp-with-React-UI-and-MobileNet-Vision-for-Secure-Login
 
 This is a full-stack application for real-time face recognition.
 It has two parts:

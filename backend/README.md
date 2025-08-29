@@ -47,4 +47,66 @@ backend/
 
   ```bash
   cd Real-Time-Face-Recognition-WebApp/backend
-  ```
+ ```
+
+ 2.Create Virtual Environment (Optional but Recommended)
+   
+   ```bash 
+   python -m venv venv
+   ```
+   ```bash 
+   source venv/bin/activate     # On Mac/Linux
+   ```
+   ```bash 
+   venv\Scripts\activate        # On Windows
+   ```
+
+3. Install Dependencies
+
+   ```bash 
+   pip install -r requirements.txt
+   ```
+
+🚀 Usage
+
+1. Start FastAPI Backend
+    
+   uvicorn app:app --reload
+   
+Backend will run on http://127.0.0.1:8000 by default.
+This connects with the React frontend for real-time face recognition.
+
+2. Collect Face Data
+
+   python data_collection/collect.py
+
+Use this to capture face images for new users. Images will be stored in dataset/.
+
+3. Train the Model
+
+   python training/train_model.py
+   
+Trains/updates the CNN (MobileNet) model with collected face data.
+Model will be saved in saved_models/.
+
+4. Run Recognition
+   
+   python recognition/recognize.py
+
+Starts real-time recognition using webcam + trained MobileNet model.
+
+🔗 API Endpoints (FastAPI)
+
+POST /predict → Send an image and get the recognized user.
+
+GET /labels → Fetch all available labels/classes.
+
+POST /add-user → Collect data and add a new user.
+
+📌 Notes
+
+Ensure you have a webcam connected for data collection & recognition.
+
+Train the model whenever you add new users.
+
+This backend works together with the React frontend for live recognition.

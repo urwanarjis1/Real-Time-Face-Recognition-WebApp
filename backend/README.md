@@ -40,10 +40,13 @@ backend/
 
 ⚙️ Setup Instructions
 1. Clone the Repository
-    
-    ~~~text git clone https://github.com/urwanarjis1/Real-Time-Face-Recognition-WebApp.git ~~~
 
-    ~~~text cd Real-Time-Face-Recognition-WebApp/backend ~~~
+  ```bash  
+  git clone https://github.com/urwanarjis1/Real-Time-Face-Recognition-WebApp.git
+
+  ```bash
+  cd Real-Time-Face-Recognition-WebApp/backend
+ 
 
 2. Create Virtual Environment (Optional but Recommended)
    
@@ -91,10 +94,3 @@ GET /labels → Fetch all available labels/classes.
 
 POST /add-user → Collect data and add a new user.
 
-📌 Notes
-
-Ensure you have a webcam connected for data collection & recognition.
-
-Train the model whenever you add new users.
-
-This backend works together with the React frontend for live recognition.

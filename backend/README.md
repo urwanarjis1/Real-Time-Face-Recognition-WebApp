@@ -1,6 +1,6 @@
 # Real-Time Face Recognition Backend
 
-This is the **backend** service for the **Real-Time Face Recognition WebApp**.
+This is the **backend** service for the **Real-Time-Face-Recognition-WebApp-with-React-UI-and-MobileNet-Vision-for-Secure-Login**.
 It is built with **FastAPI** and uses a **CNN (MobileNet) model** for recognizing faces in real-time.
 
 The backend handles:
@@ -42,11 +42,11 @@ backend/
 1. Clone the Repository
 
   ```bash  
-  git clone https://github.com/urwanarjis1/Real-Time-Face-Recognition-WebApp.git
+  git clone https://github.com/urwanarjis1/Real-Time-Face-Recognition-WebApp-with-React-UI-and-MobileNet-Vision-for-Secure-Login.git
   ```
 
   ```bash
-  cd Real-Time-Face-Recognition-WebApp/backend
+  cd Real-Time-Face-Recognition-WebApp-with-React-UI-and-MobileNet-Vision-for-Secure-Login/backend
   ```
 2. Create Virtual Environment (Optional but Recommended)
    

@@ -29,7 +29,7 @@ Real-Time-Face-Recognition-WebApp-with-React-UI-and-MobileNet-Vision-for-Secure-
 
 1. **Clone the Repository**
   ```bash 
-  git clone https://github.com/urwanarjis1/Real-Time-Face-Recognition-WebApp-with-React-UI-and-MobileNet-Vision-for-Secure-Login
+  git clone https://github.com/urwanarjis1/Real-Time-Face-Recognition-WebApp-with-React-UI-and-MobileNet-Vision-for-Secure-Login.git
   cd Real-Time-Face-Recognition-WebApp-with-React-UI-and-MobileNet-Vision-for-Secure-Login
   ```
 2. **Backend Setup**

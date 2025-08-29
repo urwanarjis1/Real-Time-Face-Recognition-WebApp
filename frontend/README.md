@@ -17,7 +17,32 @@ It provides the user interface and communicates with the backend API (Python/Fas
 ---
 
 📂 Project Structure
-<pre> ``` frontend/ ├── public/ # Static files ├── src/ # React source code │ ├── components/ # UI Components │ │ ├── Recognition.css │ │ ├── Recognition.js │ │ ├── Register.css │ │ ├── Register.js │ │ ├── Train.css │ │ └── Train.js │ ├── App.css # Global styles │ ├── App.js # Main app component │ ├── App.test.js │ ├── index.css # Styles for entry point │ ├── index.js # React entry point │ ├── logo.svg │ ├── reportWebVitals.js │ └── setupTests.js ├── .gitignore # Git ignore rules ├── package-lock.json # Dependency lock file ├── package.json # Project dependencies & scripts └── README.md # Documentation ``` </pre>
+~~~text
+frontend/
+├── node_modules/            # Installed dependencies
+├── public/                  # Static files (index.html, favicon, etc.)
+├── src/                     # React source code
+│   ├── components/          # UI Components
+│   │   ├── Recognition.css
+│   │   ├── Recognition.js
+│   │   ├── Register.css
+│   │   ├── Register.js
+│   │   ├── Train.css
+│   │   └── Train.js
+│   ├── App.css              # Global styles
+│   ├── App.js               # Main app component
+│   ├── App.test.js          # Sample test file
+│   ├── index.css            # Styles for entry point
+│   ├── index.js             # React entry point
+│   ├── logo.svg             # Assets
+│   ├── reportWebVitals.js
+│   └── setupTests.js
+├── .gitignore               # Git ignore rules
+├── package-lock.json        # Dependency lock file
+├── package.json             # Project dependencies & scripts
+└── README.md                # Documentation
+~~~
+
 ---
 
  🛠️ Installation & Setup

@@ -97,8 +97,8 @@ Model will be saved in saved_models/.
 4. Run Recognition
    
    ```bash 
-   python recognition/recognize.py
-   ```
+  python recognition/recognize.py
+  ```
 
 Starts real-time recognition using webcam + trained MobileNet model.
 

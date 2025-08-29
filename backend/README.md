@@ -112,6 +112,6 @@ POST /add-user → Collect data and add a new user.
 
 **📌 Notes**
 
-Ensure you have a webcam connected for data collection & recognition.
-Train the model whenever you add new users.
-This backend works together with the React frontend for live recognition.
+* Ensure you have a webcam connected for data collection & recognition.
+* Train the model whenever you add new users.
+* This backend works together with the React frontend for live recognition.

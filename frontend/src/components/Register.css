@@ -1,0 +1,92 @@
+/* Full lavender background */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  background-color: #d1c4f0ff;  /* soft lavender */
+  color: #2c3e50;
+}
+
+/* Glassmorphism card for Register */
+.glass-card {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 18px;
+  padding: 35px;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-shadow: 0 10px 35px rgba(0,0,0,0.25);
+  color: #1f1e1e;
+  transition: all 0.3s ease;
+  width: 400px;
+  max-width: 95%;
+}
+
+/* Input box style */
+input.form-control {
+  border-radius: 12px;
+  padding: 12px 15px;
+  border: none;
+  outline: none;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+  font-size: 15px;
+}
+
+/* Video styling */
+video {
+  border-radius: 14px;
+  border: 2px solid #fff;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+/*
+/* Custom button */
+/*.btn-custom {
+  background: linear-gradient(45deg, #0b090e, #6d28d9);
+  border: none;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  border-radius: 35px;
+  padding: 12px 28px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+  opacity: 0.9;
+  transform: scale(1.07);
+}*/
+.btn-custom {
+  background: linear-gradient(45deg, #0b090e, #6d28d9);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 35px;
+  padding: 12px 28px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-custom:hover {
+  opacity: 0.9;
+  transform: scale(1.07);
+}
+
+/* Disabled state */
+.btn-custom:disabled {
+  background: linear-gradient(45deg, #b8a8e6, #d6c9f7); /* light lavender gradient */
+  color: #666;        /* text halka grey */
+  cursor: not-allowed;
+  opacity: 0.8;
+  transform: none;    /* hover effect disable */
+}
+
+
+/* Message alert box */
+.alert {
+  border-radius: 12px;
+  padding: 12px 18px;
+  font-weight: 500;
+  font-size: 14px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}

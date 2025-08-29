@@ -1,0 +1,59 @@
+/* App.css */
+
+/* Full lavender background */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ae8ef8;  /* soft lavender */
+  color: #2c3e50;
+}
+
+/* Glassmorphism card */
+.glass-card {
+  background: rgba(255, 255, 255, 0.2);  /* semi-transparent white */
+  border-radius: 16px;
+  padding: 30px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+  color: #222122;
+  transition: all 0.3s ease;
+}
+
+/* Result card inside main card */
+.result-card {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  padding: 20px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  color: #1f1e1e;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+/* Video styling */
+video {
+  border-radius: 12px;
+  border: 2px solid #fff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* Button styling */
+.btn-custom {
+  background: linear-gradient(45deg, #9367c1, #630f7a);
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 30px;
+  padding: 10px 25px;
+  transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}

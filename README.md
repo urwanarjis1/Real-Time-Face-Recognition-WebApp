@@ -19,7 +19,7 @@ It has two parts:
 
 **📂 Project Structure**
 ~~~text
-Real-Time-Face-Recognition-WebApp/
+Real-Time-Face-Recognition-WebApp-with-React-UI-and-MobileNet-Vision-for-Secure-Login/
 ├── backend/        # FastAPI + CNN Model
 ├── frontend/       # React.js UI
 └── README.md       # Main project documentation

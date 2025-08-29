@@ -47,6 +47,7 @@ frontend/
   ```bash 
   git clone https://github.com/urwanarjis1/Real-Time-Face-Recognition-WebApp-with-React-UI-and-MobileNet-Vision-for-Secure-Login.git
   ```
+  ```bash
   cd Real-Time-Face-Recognition-WebApp-with-React-UI-and-MobileNet-Vision-for-Secure-Login/frontend
   ```
 

@@ -41,8 +41,9 @@ backend/
 ⚙️ Setup Instructions
 1. Clone the Repository
     
-    git clone https://github.com/urwanarjis1/Real-Time-Face-Recognition-WebApp.git
-    cd Real-Time-Face-Recognition-WebApp/backend
+    ~~~text git clone https://github.com/urwanarjis1/Real-Time-Face-Recognition-WebApp.git ~~~
+
+    ~~~text cd Real-Time-Face-Recognition-WebApp/backend ~~~
 
 2. Create Virtual Environment (Optional but Recommended)
    

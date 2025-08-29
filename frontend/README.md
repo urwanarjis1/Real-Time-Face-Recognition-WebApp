@@ -22,6 +22,8 @@ frontend/
 ├── public/                  # Static files (index.html)
 ├── src/                     # React source code
 │   ├── components/          # UI Components
+│   │   ├── Dashboard.css
+│   │   ├── Dashboard.js
 │   │   ├── Recognition.css
 │   │   ├── Recognition.js
 │   │   ├── Register.css

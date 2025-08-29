@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Recognition from "./components/Recognition";
 import Register from "./components/Register";
 import Train from "./components/Train";
+import Dashboard from "./components/Dashboard";
 
 
 
@@ -26,6 +27,7 @@ function App() {
           <Route path="/" element={<Recognition />} />
           <Route path="/register" element={<Register />} />
           <Route path="/train" element={<Train />} />
+         <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
       </div>
     </Router>

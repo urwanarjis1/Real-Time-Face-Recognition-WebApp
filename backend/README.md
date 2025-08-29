@@ -47,24 +47,24 @@ backend/
 
   ```bash
   cd Real-Time-Face-Recognition-WebApp/backend
- ```
+  ```
 2. Create Virtual Environment (Optional but Recommended)
    
-   ```bash 
+  ```bash 
   python -m venv venv
-   ```
-   ```bash 
+  ```
+  ```bash 
   source venv/bin/activate     # On Mac/Linux
-   ```
-   ```bash 
+  ```
+  ```bash 
   venv\Scripts\activate        # On Windows
-   ```
+  ```
 
 3. Install Dependencies
 
-   ```bash 
+  ```bash 
   pip install -r requirements.txt
-   ```
+  ```
 
 **🚀 Usage**
 

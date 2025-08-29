@@ -96,7 +96,7 @@ Model will be saved in saved_models/.
 
 4. Run Recognition
    
-   ```bash 
+  ```bash 
   python recognition/recognize.py
   ```
 

@@ -45,8 +45,9 @@ frontend/
 
 1. Clone the repository
   ```bash 
-  git clone https://github.com/your-username/your-repo.git
-  cd frontend
+  git clone https://github.com/urwanarjis1/Real-Time-Face-Recognition-WebApp-with-React-UI-and-MobileNet-Vision-for-Secure-Login.git
+  ```
+  cd Real-Time-Face-Recognition-WebApp-with-React-UI-and-MobileNet-Vision-for-Secure-Login/frontend
   ```
 
 2. Install dependencies

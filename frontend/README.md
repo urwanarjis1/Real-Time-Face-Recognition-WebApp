@@ -19,8 +19,7 @@ It provides the user interface and communicates with the backend API (Python/Fas
 📂 Project Structure
 ~~~text
 frontend/
-├── node_modules/            # Installed dependencies
-├── public/                  # Static files (index.html, favicon, etc.)
+├── public/                  # Static files (index.html)
 ├── src/                     # React source code
 │   ├── components/          # UI Components
 │   │   ├── Recognition.css
@@ -33,10 +32,7 @@ frontend/
 │   ├── App.js               # Main app component
 │   ├── App.test.js          # Sample test file
 │   ├── index.css            # Styles for entry point
-│   ├── index.js             # React entry point
-│   ├── logo.svg             # Assets
-│   ├── reportWebVitals.js
-│   └── setupTests.js
+│   └── index.js             # React entry point
 ├── .gitignore               # Git ignore rules
 ├── package-lock.json        # Dependency lock file
 ├── package.json             # Project dependencies & scripts

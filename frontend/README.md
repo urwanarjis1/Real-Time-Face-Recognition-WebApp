@@ -5,7 +5,7 @@ It provides the user interface and communicates with the backend API (Python/Fas
 
 ---
 
- 🚀 Features
+ **🚀 Features**
 - React.js based user interface
 - Three main modules:
   - **Recognition** → Face recognition functionality
@@ -16,7 +16,7 @@ It provides the user interface and communicates with the backend API (Python/Fas
 
 ---
 
-📂 Project Structure
+**📂 Project Structure**
 ~~~text
 frontend/
 ├── public/                  # Static files (index.html)
@@ -41,36 +41,38 @@ frontend/
 
 ---
 
- 🛠️ Installation & Setup
+**🛠️ Installation & Setup**
 
-1️⃣ Clone the repository
+1. Clone the repository
+  ```bash 
+  git clone https://github.com/your-username/your-repo.git
+  cd frontend
+  ```
 
-git clone https://github.com/your-username/your-repo.git
-cd frontend
-
-2️⃣ Install dependencies
-
+2. Install dependencies
+  ```bash 
   npm install
+  ```
 
-3️⃣ Run the development server
-  
+3. Run the development server
+  ```bash 
   npm start
-
+  ```
 The app will be available at: http://localhost:3000
 
 
-📦 Build for Production
-
-npm run build
-
+**📦 Build for Production**
+  ```bash 
+  npm run build
+  ```
 This will generate optimized static files in the build/ folder.
 
-🔗 Backend Connection
+**🔗 Backend Connection**
 
 This frontend communicates with the Python FastAPI backend.
 Make sure the backend server is running, then update API endpoints in frontend components if needed.
 
-📚 Available Scripts
+**📚 Available Scripts**
 
 npm start → Run the app in development mode
 
@@ -80,7 +82,7 @@ npm run build → Build for production
 
 npm run eject → Eject CRA config (not recommended)
 
-📦 Dependencies
+**📦 Dependencies**
 Main Dependencies
 
 React
